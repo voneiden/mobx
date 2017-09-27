@@ -260,7 +260,7 @@ for (let p in everything) {
                 warnedAboutDefaultExport = true
                 console.warn(
                     "Using default export (`import mobx from 'mobx'`) is deprecated " +
-                        "and won’t work in mobx@4.0.0\n" +
+                        "and won't work in mobx@4.0.0\n" +
                         "Use `import * as mobx from 'mobx'` instead"
                 )
             }
